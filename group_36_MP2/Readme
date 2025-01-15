@@ -1,0 +1,31 @@
+We recommend using Googal Colab T4 env if you want to run the feature extraction steps too. Each .ipynb feature extraction will generate 2 .pth files whose path has to be provided in the .ipynb files.
+
+If Not we have provided link to extracted features below.
+
+Install necessary packages
+- pip install torch torchvision numpy scikit-learn tqdm matplotlib pandas pillow
+
+Link to our extracted features (4 .pth file) : 
+https://drive.google.com/drive/folders/1iGbY-n8NhaeQw54OHYYztDX5sMSFg17o?usp=sharing
+
+Place them all (4 .pth files) in the same dir as our .ipynb files and Ignore the feacture extraction step while executing the code.
+
+
+Paper Presentation Link : https://youtu.be/LqY7CQMpMCY?si=9BTjhvNDABolbQb2
+
+Final Folder Structure:
+
+|---MLA2T1.ipynb
+|---MLA2T2.ipynb
+|---features_cache1.pth
+|---eval_features_cache1.pth
+|---f10.pth
+|---features_cache2.pth
+|---eval_features_cache2.pth
+|---Readme
+|
++---dataset
+| |
+| +---part_one_dataset
+| +---part_two_dataset
++---myenv

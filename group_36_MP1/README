@@ -1,0 +1,33 @@
+Group 36 - CerebroX
+
+Members :
+Ashvani Kumar Yadav 241110013,
+Awanish Kumar 241110015,
+Khushwant Kaswan 241110035,
+Sangharsh Nagdevte 241110064,
+Souvik Sarkar 231160402
+
+
+"emoji2vec.bin" is a crucial file for our code. Its source has been referenced in report.
+
+
+Install the packages used :
+
+pip3 install numpy pandas matplotlib scikit-learn xgboost gensim tensorflow
+
+To run the code:
+
+python3 36.py
+
+
+36.py contains code corresponding to methods giving the highest validation accuracies on respective datasets as mentioned in report.
+
+To disable viewing epochs in terminal while running 36.py, do verbose=0 inplace of verbose=1 in 36.py for Dataset1 and Dataset3.
+
+The current 4 files generated are wrt following validation accuracies :
+Dataset 1 : 95.27%  (LSTM)
+Dataset 2 : 98.36%  (Logistic Regression)
+Dataset 3 : 85.69%  (GRU)
+Dataset Combined :98.97%  (Logistic Regression)
+
+Codes for other methods mentioned in report can be found in extras folder in their respective .ipynb files.
