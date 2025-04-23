@@ -1,3 +1,4 @@
+## Domain adaptation & Feature Fusion
 
 This repository showcases solutions to complex machine learning challenges involving **continual adaptation** and **heterogeneous data integration**. The projects address real-world scenarios where models must evolve with shifting data distributions and leverage diverse feature representations for robust performance.
 
